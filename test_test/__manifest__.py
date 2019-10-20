@@ -19,11 +19,9 @@
       - Integration with Odoo Website
       - Comprehensive Reporting
       """,
-    'author':'ITSYS CORPORATION, Fatma Yousef',
-    'price':500,
-    'currency':'EUR',
+    'author':'Yousef',
     'website':'https://www.it-syscorp.com',
-    'depends':['base','account_voucher',],
+    'depends':['base','eq_invoice_from_picking',],
     'data':[
         'security/real_estate_security.xml',
         'security/ir.model.access.csv',
